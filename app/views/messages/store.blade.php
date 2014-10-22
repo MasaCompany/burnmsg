@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="alert alert-success">
-    Your message has been saved.
-    Here is the URL <a href="{{ secure_url('/' . $url . '/' . $key) }}" class="byline">{{ secure_url('/' . $url . '/' . $key)}}</a>
+    <strong>Attention! The following URL can only be viewed ONCE! After that the message is destroyed FOREVER!</strong>
+    Here is your message URL: {{ $url }}
 </div>
 @stop
