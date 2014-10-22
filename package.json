@@ -18,7 +18,7 @@
     "url": "https://github.com/ezynda3/burnmsg/issues"
   },
   "dependencies": {
-    "bower": "~1.2.8",
+    "bower": "~1.4.0",
     "grunt-cli": "~0.1.11",
     "grunt": "~0.4.2",
     "grunt-contrib-concat": "~0.3.0",
